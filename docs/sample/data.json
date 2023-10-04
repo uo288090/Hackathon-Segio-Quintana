@@ -1,9 +1,9 @@
 {
     "meta": {
         "app_id": "org.example.same.identifier.manifest.package",
-        "app_title": "My example",
+        "app_title": "La gula gijonesa",
         "version": 1,
-        "updated": "2022-09-26",
+        "updated": "2023-10-04",
         "source_url": "https://ow2-quick-app-initiative.github.io/poi-quick-app/sample/data.json",
         "matomo_base_url": "https://matomo.pbest.me/matomo.php?idsite=1&rec=1",        
         "marketplace_url": ""
@@ -23,37 +23,67 @@
                 "issue_url": "https://github.com/ow2-quick-app-initiative/poi-quick-app/issues/new?labels=country/city&template=update_request.md&title=Update+Request"
             },
             "pois": [{
-                    "id": "uniqueID",
-                    "lat": "50.8789629",
-                    "lon": "4.7013242",
-                    "type": "statue",
-                    "name": "My Statue",
+                    "id": "1",
+                    "lat": "43.540286895502675",
+                    "lon": "-5.661452818413215",
+                    "type": "café",
+                    "name": "Catlove coffe",
                     "images": [
-                        "https://ow2-quick-app-initiative.github.io/poi-quick-app/sample/images/uniqueID_1.jpg",
-                        "https://ow2-quick-app-initiative.github.io/poi-quick-app/sample/images/uniqueID_2.jpg"
+                        "https://catlovecoffee.com/wp-content/uploads/2020/11/601cdb24-9ca4-482d-919b-d6327eef7702-1024x768.jpg",
+                        "https://catlovecoffee.com/wp-content/uploads/2021/11/PHOTO-2021-08-10-15-35-31-3-1.jpg"
                     ],
-                    "description": "One-paragraph description",
-                    "more": "More description, if you want",
+                    "description": "Gracias a su especialidad en comidas sanas Cat Coffee ha sido valorada por muchos usuarios debido a sus opciones gluten free",
+                    "more": "",
                     "urls": [
-                        "https://nl.wikipedia.org/wiki/De_Kotmadam_(Leuven)",
-                        "https://example.org/mypoi"
+                        "https://catlovecoffee.com/"
                     ]
                 },
                 {
-                    "id": "uniqueID-2",
-                    "lat": "50.9",
-                    "lon": "4.8",
-                    "type": "statue",
-                    "name": "My Statue",
+                    "id": "2",
+                    "lat": "43.54364188402379",
+                    "lon": "-5.662338196590644",
+                    "type": "café",
+                    "name": "Aliter Dulcia",
                     "images": [
-                        "https://ow2-quick-app-initiative.github.io/poi-quick-app/sample/images/uniqueID2_1.jpg",
-                        "https://ow2-quick-app-initiative.github.io/poi-quick-app/sample/images/uniqueID2_2.jpg"
+                        "https://media-cdn.tripadvisor.com/media/photo-s/1d/bf/f7/e9/caption.jpg",
+                        "https://madriddiferente.com/wp-content/uploads/2022/03/ALITER-DULCIA-San-Joaquin-el-rincon-mas-goloso-de-Malasana-770x466.jpg"
                     ],
-                    "description": "One-paragraph description",
-                    "more": "More description, if you want",
+                    "description": "A parte de cafetería y repostería, este establecimiento tiene la curiosidad de ofrecer cursos de repostería online",
+                    "more": "",
                     "urls": [
-                        "https://nl.wikipedia.org/MyPoi",
-                        "https://example.org/mypoi"
+                        "https://aliterdulcia.es/"
+                    ]
+                },
+                {
+                    "id": "3",
+                    "lat": "43.540341084006144",
+                    "lon": "-5.655323211932358",
+                    "type": "café",
+                    "name": "Punto caramelo",
+                    "images": [
+                        "https://s1.ppllstatics.com/elcomercio/www/pre2017/multimedia/noticias/201511/05/media/cortadas/yantar%20(1)--575x323.jpg",
+                        "https://madriddiferente.com/wp-content/uploads/2022/03/ALITER-DULCIA-San-Joaquin-el-rincon-mas-goloso-de-Malasana-770x466.jpg"
+                    ],
+                    "description": "Este establecimiento se caracteriza por toda la variedad de dulces que ofrece y es uno favorito de los usuarios",
+                    "more": "",
+                    "urls": [
+                        "https://www.puntocaramelogijon.com/"
+                    ]
+                },
+                {
+                    "id": "4",
+                    "lat": "43.53974847188952",
+                    "lon": "-5.662762454261596",
+                    "type": "café",
+                    "name": "El jardín de Gloria",
+                    "images": [
+                        "https://img.restaurantguru.com/rba0-El-Jardin-de-Gloria-meals.jpg",
+                        "https://img.restaurantguru.com/rba0-El-Jardin-de-Gloria-meals.jpg"
+                    ],
+                    "description": "Gracias a su repostería artesanal los usuarios adoran este establecimiento y su servicio",
+                    "more": "",
+                    "urls": [
+                        "https://www.instagram.com/eljardinde_gloria/?hl=es"
                     ]
                 }
             ]
